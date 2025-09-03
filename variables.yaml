@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.vivekdevops.online
+CATALOGUE_HOST: catalogue.vivekdevops.online
+REDIS_HOST: redis.vivekdevops.online
+CART_HOST: cart.vivekdevops.online
+USER_HOST: user.vivekdevops.online
+MYSQL_HOST: mysql.vivekdevops.online
+RABBITMQ_HOST: rabbitmq.vivekdevops.online
+SHIPPING_HOST: shipping.vivekdevops.online
+PAYMENT_HOST: payment.vivekdevops.online
+DISPATCH_HOST: dispatch.vivekdevops.online

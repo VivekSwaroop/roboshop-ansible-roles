@@ -1,0 +1,6 @@
+shipping_version: 1.0
+mysql_password: RoboShop@1
+MYSQL_HOST: mysql.vivekdevops.online
+MYSQL_ROOT_USER: root
+MYSQL_ROOT_PASSWORD: RoboShop@1
+CART_HOST: cart.vivekdevops.online
