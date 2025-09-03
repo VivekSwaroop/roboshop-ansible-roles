@@ -11,13 +11,13 @@
 - name: get the catalogue entries count
   ansible.builtin.shell: mongo --host {{MONGODB_HOST}} --quiet --eval 'db = db.getSiblingDB("catalogue"); db.products.count()'
   register: products_count
-  when: component="catalogue"
+  when: component == "catalogue"
 
 
 - name: get the user entries count
   ansible.builtin.shell: mongo --host {{MONGODB_HOST}} --quiet --eval 'db = db.getSiblingDB("user"); db.products.count()'
   register: user_count
-  when: component="user"
+  when: component == "user"
 
 - name: "load catalogue data"
   ansible.builtin.shell: "mongo --host {{MONGODB_HOST}} < /app/schema/{{component}}.js"
